@@ -3,11 +3,6 @@
 ## Course
 Time Series Analysis (Master’s in Artificial Intelligence)
 
-## Team Members
-- Member 1: Data Engineering, Exploratory Data Analysis, Stationarity Analysis  
-- Member 2: Decomposition and Forecasting (ARIMA, Prophet)  
-- Member 3: Anomaly Detection and Re-Forecasting  
-
 ## Project Overview
 This project focuses on end-to-end time series analysis using an air quality dataset. The workflow includes data cleaning, exploratory analysis, decomposition, forecasting, anomaly detection, and re-forecasting after anomaly handling.
 
@@ -51,9 +46,6 @@ project-root/
 │
 ├── README.md
 └── requirements.txt
-
-yaml
-Copy code
 
 ---
 
@@ -103,19 +95,15 @@ Copy code
 ## How to Run the Project
 
 1. Clone the repository:
-   ```bash
    git clone <repository-url>
    cd project-root
-Install dependencies:
+   
+2. Install dependencies:
+   pip install -r requirements.txt
 
-bash
-Copy code
-pip install -r requirements.txt
-Run notebooks in the following order:
-
-Copy code
-01_data_cleaning_exploration.ipynb
-02_decomposition.ipynb
-03_initial_forecasting.ipynb
-04_anomaly_detection.ipynb
-05_reforecasting_after_cleaning.ipynb
+3. Run notebooks in the following order:
+   01_data_cleaning_exploration.ipynb
+   02_decomposition.ipynb
+   03_initial_forecasting.ipynb
+   04_anomaly_detection.ipynb
+   05_reforecasting_after_cleaning.ipynb
