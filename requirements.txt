@@ -7,3 +7,4 @@ pmdarima
 prophet
 scikit-learn
 scipy
+pyarrow
